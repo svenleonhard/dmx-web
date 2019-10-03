@@ -1,8 +1,10 @@
 let express = require('express');
 const dmxus = require('dmxus');
 let app = express();
+const cors = require('cors')
 
-app.use(express.json())
+app.use(cors());
+app.use(express.json());
 const dmx = new dmxus("enttec-dmx-usb-pro", "COM5");
 
 const fixture = {
@@ -31,6 +33,7 @@ setInterval(() => {
 console.log('app started');
 
 app.get('/', function (req, res) {
+  console.log('received message');
   res.send('Hello World!');
 
   const red = getRandomInt(256);
