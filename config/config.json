@@ -1,0 +1,4 @@
+{
+    "interface": "enttec-dmx-usb-pro",
+    "serialPort": "COM5"
+}
