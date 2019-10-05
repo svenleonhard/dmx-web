@@ -1,0 +1,15 @@
+{
+  "groups": [
+    {
+      "name": "Flood Panel Group",
+      "devices": [
+        {
+          "fixture": "LED Flood Panel 150",
+          "name": "LED Fllod Panel 150 1",
+          "manufactor": "Stairville",
+          "channels": [0, 0, 0]
+        }
+      ]
+    }
+  ]
+}

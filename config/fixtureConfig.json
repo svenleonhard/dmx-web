@@ -1,0 +1,14 @@
+{
+    "fixtures": [
+        {
+            "name": "LED Flood Panel 150",
+            "manufactor": "Stairville",
+            "numberOfChannels": 3,
+            "channelAssignments": [
+                "red",
+                "green",
+                "blue"
+            ]
+        }
+    ]
+}
